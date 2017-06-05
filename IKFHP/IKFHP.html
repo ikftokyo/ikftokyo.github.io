@@ -13,15 +13,17 @@
   <body>
   <header>
 	  <nav>
-	  	<div class="logo">logo</div>
-		  <ul>
+	  	<!-- <div class="logo"></div> -->
+		  <ul class="header-list">
 			  <li><a href="IKFHP-About.html">About</a></li>
 			  <li><a href="IKFHP-In.html">Instructor</a></li>
 			  <li><a href="IKFHP-Sc.html">Schedule</a></li>
 			  <li><a href="IKFHP-mo.html">Monthly Fee</a></li>
 			  <li><a href="IKFHP-Access.html">Access</a></li>
-			  <i class="fa fa-bars menu" aria-hidden="true"></i>
-			  </ul>
+			</ul>
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+			<i class="fa fa-bars menu2" aria-hidden="true"></i>
+			
 	    </nav>
 
 <!-- 	 <!-- <!-- <!--    <!-- drawer.css -->
@@ -31,24 +33,22 @@
     
      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script> -->
 	 
-	<!--  <div id="menu" style="width:100px;height:500px;background:white;">
-			<ul>
-				<li><a href="#">Online shop</a></li>
-				<li><a href="#">News</a></li>
-				<li><a href="#">Member Page</a></li>
-			</ul>
-		</div> -->
-			  
- <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
- <script>
-      $(function(){
-      $('#menu').fadeOut(800);
-      $('#menu').click()
-      $
-	}
-	</script> --> 
   </header>
+   <ul class="header-sp-list">
+			  <li><a href="IKFHP-About.html">About</a></li>
+			  <li><a href="IKFHP-In.html">Instructor</a></li>
+			  <li><a href="IKFHP-Sc.html">Schedule</a></li>
+			  <li><a href="IKFHP-mo.html">Monthly Fee</a></li>
+			  <li><a href="IKFHP-Access.html">Access</a></li>
+			</ul>
+			
+  <ul class="header-pc-list">
+			  <li><a href="">News</a></li>
+			  <li><a href="">Online Shop</a></li>
+			  <li><a href="">Member Page</a></li>
+			</ul>
+
+
 
   <div class="toppic">
   <img src="images/sea.jpg">
@@ -79,8 +79,24 @@
 <footer>
 <div class="footer"></div>
 </footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
+ 	<script>
+      $(function(){
+      $('.menu').click(function(){
+      	$('.header-sp-list').slideToggle();
+      });
+
+	});
+      
+      $(function(){
+      $('.menu2').click(function(){
+      	$('.header-pc-list').slideToggle();
+      });
+
+	});
+	</script>
 　　</body>
- <i class="fa fa-envelope-o" aria-hidden="true"></i>
- <i class="css/fa fa-facebook-official" aria-hidden="true"></i>
+ <!-- <i class="fa fa-envelope-o" aria-hidden="true"></i>
+ <i class="css/fa fa-facebook-official" aria-hidden="true"></i> -->
 </html>
