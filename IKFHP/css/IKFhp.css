@@ -244,6 +244,10 @@ i{
   font-size:20px;
 }
 @media all and (max-width: 640px) {
+  .header-pc-list{
+    display:none;
+  }
+
   .header-sp-list li{
       float: none;
       display: block;
@@ -276,10 +280,10 @@ i{
    }
 
    .explain1 {
-  font-size: 20px;
+  font-size: 23px;
   }
   .explain2{
-  font-size: 20px;
+  font-size: 23px;
   }
 .black {
  font-size: 15px;
@@ -290,5 +294,32 @@ i{
 
 .text{
   width: 300px;
+  padding:40px;
+}
+
+.IKF{
+  font-size:20px;
+  left: 250px;
+  top: 200px;
+}
+
+.brunch{
+  position:absolute;
+  font-size:10px;
+  left: 260px;
+  top: 0px;  
+  line-height: 120px;
+  text-align: left;
+  position: absolute;
+  z-index: 22;
+}
+
+
+
+.toppic{
+  height:400px;
+}
+
+
 }
 }
