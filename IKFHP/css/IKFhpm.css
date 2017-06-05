@@ -1,0 +1,80 @@
+
+.fee1{
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+  float:left;
+  margin-left: 300px;
+  padding:0;
+}
+
+.title1{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  line-height: 1.2;
+  clear:right;
+  top: 915.568px;
+  text-align: center;
+  font-family: "Swis721 BlkCn BT";
+  font-size: 50px;
+
+}
+
+.fee1-1{
+  float:right;
+  margin-right:300px;
+}
+
+.detail1 {
+  font-size: 40px;
+  /*text-align: center;*/ 
+  font-family: "Swis721 BlkCn BT";
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  text-align:left;
+  margin-left:20px;
+}
+
+.fee2{
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+  float:left;
+  margin-left: 300px;
+  padding:0;
+}
+
+.title2{
+  clear:right;
+  clear:left;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  line-height: 1.2;
+/*  top: 915.568px;*/
+  text-align: center;
+  font-family: "Sawarabi Gothic";
+  font-size: 50px;
+  padding-top:300px;
+}
+
+.detail2{
+  font-family:"Sawarabi Gothic"; 
+  font-size: 58.333px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+/*  position:absolute;*/
+  line-height: 1.2;
+   margin:10px;
+   font-size: 30px;
+   
+ }
+
+
+.fee2-1{
+  float:right;
+  margin-right:300px;
+}
+
+

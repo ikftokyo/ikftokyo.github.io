@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.schedule{
+    font-family: "Swis721 BlkCn BT";
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    }
+
+.title-left{
+	float: left;
+	text-decoration: underline;
+	font-size:50px;
+	margin-right:20px;
+}
+.fw {
+	margin-top:20px;
+	float: left;
+	font-family:"Sawarabi Gothic";
+	font-size:25px;
+}
+
+
+.calender{
+	margin-left:100px;
+	border: 0px;
+	width:500px ;
+	height:500px;
+	float:left;
+	
+}
+
+.content{
+	float:right;
+	font-family:"Sawarabi Gothic";
+	margin-right:300px;
+	font-size: 30px;
+	margin-top:20px;
+
+}
+
+

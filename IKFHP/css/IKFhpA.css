@@ -1,0 +1,69 @@
+/*.about0{
+	font-size: 35px;
+     font-family: "HG行書体";
+     color: rgb(0, 0, 0);
+     width: 650px;
+     height: 100px;
+     margin: 0 auto;*/
+
+/*}*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.about{
+	font-size: 35px;
+     font-family: "Swis721 BlkCn BT";
+     color: rgb(0, 0, 0);
+      width: 400px;
+      height: 100px;
+      margin: 0 auto;
+      line-height: 100px;
+      margin-bottom: 30px; 
+    }
+.title-left{
+	float: left;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+.fw {
+	float: right;
+	font-size: 26px;
+	text-decoration: none;
+	font-family:"Sawarabi Gothic";
+}
+.detail1{
+    height: 40px;
+    font-size: 35px;
+    font-family: "Swis721 BlkCn BT";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+   /* text-align: center;*/
+    display:block;
+} 
+
+.detail2{
+    height: 30px;
+    font-size: 25px;
+    font-family: "Sawarabi Gothic";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+   /* text-align: center;*/
+    display:block;
+   }
+
+
+.content1{
+	width: 45%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.content2{
+    padding-top:70px;
+	width: 45%;
+	margin:0 auto;
+	
+}

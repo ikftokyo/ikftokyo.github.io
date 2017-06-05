@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.portfolio{
+    padding-top:90px;
+    width: 100%;
+    text-align: center;
+}
+
+.border_line{
+    width:60px;
+    height: 8px;
+    border-bottom:solid 1px #EC715F;
+    margin: 0 auto;
+}
+
+.text_box{
+    width:100%;
+    margin:30px auto;
+}
+
+.image_box{
+    width:930px;
+    margin:0 auto 10px auto;
+}
+
+.image_box img{
+    display: block;
+    margin:0 5px;
+    float:left;
+}
+
+.strength_box{
+    width:1020px;
+    margin:0 auto;
+    padding-bottom:90px;
+    
+
+}
+
+.str_box{
+    width:320px;
+    margin:0 10px;
+    float:left;
+    text-align: center;
+}
+
+.str_box p{
+    font-size: 18px;
+    line-height: 38px;
+    font-weight:bold;
+}
+
+.str_box i{
+    display: block;
+}

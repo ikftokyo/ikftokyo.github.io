@@ -1,0 +1,32 @@
+
+
+
+.map1{
+    font-size: 50px;
+	margin-left:100px;
+	border: 0px;
+	width:500px ;
+	height:500px;
+	float:left;
+	}
+
+.title1{
+	font-family: "Swis721 BlkCn BT";
+	font-size: 50px;
+}
+
+.title2
+{
+  font-family: "Sawarabi Gothic";
+  font-size: 30px;
+}
+
+.map2{
+    font-size: 50px;
+	margin-left:200px;
+	border: 0px;
+	width:500px ;
+	height:500px;
+	float:left;
+	padding-top:350px;
+	}
