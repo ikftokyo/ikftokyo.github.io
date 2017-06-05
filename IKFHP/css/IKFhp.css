@@ -27,9 +27,8 @@ nav{
   height: 70px;
   z-index: 3;
 }
-
-#hmmenu{
-}/*.長方形_9 {
+/*
+*.長方形_9 {
   background-color: rgb(1, 1, 1);
   position: absolute;
   left: 1830px;
@@ -200,5 +199,45 @@ i{
   color: white;
 }
 
-
+@media all and (max-width: 640px) {
+    .pc-menu{
+        display: none;
+    }
+    .sp-menu-icon{
+        display: block;
+        position: relative;
+        float: right;
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+    }
+    .icon-top,
+    .icon-center,
+    .icon-bottom{
+        width: 25px;
+        height: 3px;
+        background-color: white;
+    }
+    .icon-top{
+        position: absolute;
+        top: 4px;
+        right: 2px;
+    }
+    .icon-center{
+        position: absolute;
+        top: 14px;
+        right: 2px;
+    }
+    .icon-bottom{
+        position: absolute;
+        top: 24px;
+        right: 2px;
+    }
+    .sp-menu{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        }
+}
 /*p{color:rgb(0,0,0,)}*/
