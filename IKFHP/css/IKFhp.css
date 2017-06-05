@@ -203,8 +203,7 @@ b{
   text-align: left;
 }
 
- 
-} p.black1:first-letter{
+p.black1:first-letter{
     font-size: 50px;
  }
 .text{
@@ -292,4 +291,4 @@ i{
 .text{
   width: 300px;
 }
-  
+}
