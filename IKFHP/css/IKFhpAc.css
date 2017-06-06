@@ -30,3 +30,22 @@
 	float:left;
 	padding-top:350px;
 	}
+
+@media all and (max-width: 640px) {
+.title1{
+    font-size: 20px;
+}
+.title2{
+    font-size: 20px;
+}
+
+.map1-1{
+	width:100%; 
+	height:200; 
+}
+
+.map2-1	{
+	width:100%; 
+	height:200; 
+}
+}

@@ -67,3 +67,45 @@
 	margin:0 auto;
 	
 }
+
+@media all and (max-width: 640px) {
+.about{
+  font-size: 20px;
+      width: 100%;
+      height: 50px;
+      margin-bottom:50px;
+    }
+
+.title-left{
+  font-size: 20px;
+  padding-left: 120px;
+
+}
+.fw {
+  font-size: 15px;
+  padding-right:105px;
+}
+
+.detail1{
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+} 
+
+.detail2{
+    height: 20px;
+    font-size: 13px;
+    text-align: center;
+   }
+
+
+.content1{
+  width: 100%;
+  }
+
+.content2{
+  padding-top:50px;
+  width:100%;
+ /* margin:0 auto;*/
+  }
+}

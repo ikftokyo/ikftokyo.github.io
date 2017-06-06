@@ -77,4 +77,52 @@
   margin-right:300px;
 }
 
+@media all and (max-width: 640px) {
+
+.fee1{
+  width: 300px;
+  margin: 0 auto;
+  height: 0px;
+    }
+
+.fee1-1{
+  float:right;
+  margin-right:50px;
+}
+
+.fee2{
+  width: 300px;
+  margin: 0 auto;
+  height: 0px;
+}
+
+.fee2-1{
+  float:right;
+  margin-right:50px;
+}
+
+.title1{
+  font-size: 20px;
+  padding-left: 60px;
+}
+
+
+.detail1{
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.detail2{
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.title2{
+  font-size: 20px;
+  padding-left: 60px;
+}
+
+
+}
+
 
