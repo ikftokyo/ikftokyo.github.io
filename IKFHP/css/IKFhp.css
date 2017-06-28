@@ -9,6 +9,14 @@ header{
   height: 70px;
 }
 
+.logo>img{
+
+  height:66px;
+  padding-left:30px;
+
+  /*background-image: url(../images/logo.png*/);
+}
+
 .footer{
   background-color: rgb(0, 0, 0);
   position: absolute;
@@ -42,7 +50,6 @@ nav{
 }*/
 
 nav .logo{
-  width: 50%;
   float: left;
 }
 
